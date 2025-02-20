@@ -41,3 +41,10 @@ export OPENAI_API_KEY=xxxx
 export LANGSMITH_TRACING="true"
 export LANGSMITH_API_KEY="xxxx"
 ```
+
+### Install ollama and make sure to have ollama3.2
+```
+$ ollama list
+NAME               ID              SIZE      MODIFIED    
+llama3.2:latest    a80c4f17acd5    2.0 GB    5 weeks ago    
+```
