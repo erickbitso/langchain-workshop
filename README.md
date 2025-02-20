@@ -35,3 +35,9 @@ pip install -r requirements.txt
 ```
 export OPENAI_API_KEY=xxxx
 ```
+
+### Set Langchain credentials (if you have them)
+```
+export LANGSMITH_TRACING="true"
+export LANGSMITH_API_KEY="xxxx"
+```
