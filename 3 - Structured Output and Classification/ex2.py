@@ -33,7 +33,7 @@ Passage:
 
 
 llm = ChatOpenAI(
-    model="gpt-3.5-turbo",
+    model="gpt-4o-mini-2024-07-18",
     temperature=0.1).with_structured_output(Classification)
 
 inp = "Estoy increiblemente contento de haberte conocido! Creo que seremos muy buenos amigos!"
